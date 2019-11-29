@@ -1,0 +1,18 @@
+--cpu Cortex-M0
+".\pwr_currentconsumption\main.o"
+".\pwr_currentconsumption\stm32f0xx_it.o"
+".\pwr_currentconsumption\system_stm32f0xx.o"
+".\pwr_currentconsumption\stm32f0xx_lp_modes.o"
+".\pwr_currentconsumption\stm32f0_discovery.o"
+".\pwr_currentconsumption\stm32f0xx_rcc.o"
+".\pwr_currentconsumption\stm32f0xx_misc.o"
+".\pwr_currentconsumption\stm32f0xx_gpio.o"
+".\pwr_currentconsumption\stm32f0xx_syscfg.o"
+".\pwr_currentconsumption\stm32f0xx_exti.o"
+".\pwr_currentconsumption\stm32f0xx_pwr.o"
+".\pwr_currentconsumption\stm32f0xx_rtc.o"
+".\pwr_currentconsumption\startup_stm32f0xx.o"
+--library_type=microlib --strict --scatter ".\PWR_CurrentConsumption\PWR_CurrentConsumption.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\PWR_CurrentConsumption\PWR_CurrentConsumption.map" -o .\PWR_CurrentConsumption\PWR_CurrentConsumption.axf
