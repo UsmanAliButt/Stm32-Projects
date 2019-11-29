@@ -1,1 +1,1 @@
-This repository contains diy projects made with stm32 microcontroller# Stm32-Projects
+This repository contains diy projects made with stm32 microcontroller.
