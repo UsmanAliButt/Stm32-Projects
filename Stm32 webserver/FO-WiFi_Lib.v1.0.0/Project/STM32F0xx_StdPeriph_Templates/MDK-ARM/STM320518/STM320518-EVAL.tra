@@ -1,0 +1,47 @@
+*** Creating Trace Output File '.\STM320518\STM320518-EVAL.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '".\stm320518\main.o"'
+### List of Objects: adding '".\stm320518\stm32f0xx_it.o"'
+### List of Objects: adding '".\stm320518\eeprom.o"'
+### List of Objects: adding '".\stm320518\stm32f0xx_adc.o"'
+### List of Objects: adding '".\stm320518\stm32f0xx_cec.o"'
+### List of Objects: adding '".\stm320518\stm32f0xx_comp.o"'
+### List of Objects: adding '".\stm320518\stm32f0xx_crc.o"'
+### List of Objects: adding '".\stm320518\stm32f0xx_dac.o"'
+### List of Objects: adding '".\stm320518\stm32f0xx_dbgmcu.o"'
+### List of Objects: adding '".\stm320518\stm32f0xx_dma.o"'
+### List of Objects: adding '".\stm320518\stm32f0xx_exti.o"'
+### List of Objects: adding '".\stm320518\stm32f0xx_flash.o"'
+### List of Objects: adding '".\stm320518\stm32f0xx_gpio.o"'
+### List of Objects: adding '".\stm320518\stm32f0xx_i2c.o"'
+### List of Objects: adding '".\stm320518\stm32f0xx_iwdg.o"'
+### List of Objects: adding '".\stm320518\stm32f0xx_misc.o"'
+### List of Objects: adding '".\stm320518\stm32f0xx_pwr.o"'
+### List of Objects: adding '".\stm320518\stm32f0xx_rcc.o"'
+### List of Objects: adding '".\stm320518\stm32f0xx_rtc.o"'
+### List of Objects: adding '".\stm320518\stm32f0xx_spi.o"'
+### List of Objects: adding '".\stm320518\stm32f0xx_syscfg.o"'
+### List of Objects: adding '".\stm320518\stm32f0xx_tim.o"'
+### List of Objects: adding '".\stm320518\stm32f0xx_usart.o"'
+### List of Objects: adding '".\stm320518\stm32f0xx_wwdg.o"'
+### List of Objects: adding '".\stm320518\system_stm32f0xx.o"'
+### List of Objects: adding '".\stm320518\stm320518_eval_lcd.o"'
+### List of Objects: adding '".\stm320518\stm320518_eval.o"'
+### List of Objects: adding '".\stm320518\startup_stm32f0xx.o"'
+### ADS-LD Command completed:
+--cpu Cortex-M0 ".\stm320518\main.o" ".\stm320518\stm32f0xx_it.o" ".\stm320518\eeprom.o" ".\stm320518\stm32f0xx_adc.o" ".\stm320518\stm32f0xx_cec.o" ".\stm320518\stm32f0xx_comp.o" ".\stm320518\stm32f0xx_crc.o" ".\stm320518\stm32f0xx_dac.o" ".\stm320518\stm32f0xx_dbgmcu.o" ".\stm320518\stm32f0xx_dma.o" ".\stm320518\stm32f0xx_exti.o" ".\stm320518\stm32f0xx_flash.o" ".\stm320518\stm32f0xx_gpio.o" ".\stm320518\stm32f0xx_i2c.o" ".\stm320518\stm32f0xx_iwdg.o" ".\stm320518\stm32f0xx_misc.o" ".\stm320518\stm32f0xx_pwr.o" ".\stm320518\stm32f0xx_rcc.o" ".\stm320518\stm32f0xx_rtc.o" ".\stm320518\stm32f0xx_spi.o" ".\stm320518\stm32f0xx_syscfg.o" ".\stm320518\stm32f0xx_tim.o" ".\stm320518\stm32f0xx_usart.o" ".\stm320518\stm32f0xx_wwdg.o" ".\stm320518\system_stm32f0xx.o" ".\stm320518\stm320518_eval_lcd.o" ".\stm320518\stm320518_eval.o" ".\stm320518\startup_stm32f0xx.o" 
+--library_type=microlib --strict --scatter ".\STM320518\STM320518-EVAL.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\STM320518\STM320518-EVAL.map" -o .\STM320518\STM320518-EVAL.axf### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: '.\STM320518\STM320518-EVAL.axf'
+### ADS-LD Command File: '.\STM320518\STM320518-EVAL.lnp'
+### Checking for dirty Components...
+### Creating CmdFile '.\STM320518\STM320518-EVAL.lnp', Handle=0x000001C4
+### Writing '.lnp' file
+### ADS-LD Command file '.\STM320518\STM320518-EVAL.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.
